@@ -43,7 +43,7 @@ class TeamMatches extends Component {
       manOfTheMatch: latestMatch.man_of_the_match,
       matchStatus: latestMatch.match_status,
       result: latestMatch.result,
-      secondInnings: latestMatch.result,
+      secondInnings: latestMatch.second_innings,
       umpires: latestMatch.umpires,
       venue: latestMatch.venue,
     }
@@ -60,7 +60,7 @@ class TeamMatches extends Component {
           manOfTheMatch: eachMatch.man_of_the_match,
           matchStatus: eachMatch.match_status,
           result: eachMatch.result,
-          secondInnings: eachMatch.result,
+          secondInnings: eachMatch.second_innings,
           umpires: eachMatch.umpires,
           venue: eachMatch.venue,
         }
