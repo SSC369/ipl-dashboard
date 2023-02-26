@@ -1,0 +1,32 @@
+.each-match-team-logo {
+  margin-top: 10px;
+  height: 80px;
+}
+.each-match {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: #0f172a;
+  border-radius: 10px;
+}
+.won {
+  color: #18ed66;
+  font-size: 16px;
+}
+.lost {
+  color: #e31a1a;
+  font-size: 16px;
+}
+.mc-competing-team {
+  font-weight: 400;
+  font-size: 16px;
+}
+.result {
+  font-weight: 100;
+  text-align: center;
+  font-size: 14px;
+}

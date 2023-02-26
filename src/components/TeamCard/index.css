@@ -1,0 +1,36 @@
+.team-logo {
+  width: 40px;
+}
+.team {
+  width: 100%;
+  height: 140px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 4px solid #475569;
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.route-link {
+  margin: 10px;
+  width: 40%;
+  text-decoration: none;
+}
+.team-name {
+  text-align: center;
+  width: 80%;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .team-logo {
+    max-width: 80px;
+  }
+  .team-name {
+    font-size: 24px;
+  }
+}

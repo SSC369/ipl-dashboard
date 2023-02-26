@@ -1,0 +1,61 @@
+.lm-team-logo {
+  width: 30%;
+}
+.detail {
+  margin-top: 0;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+.latest-match-container {
+  width: 90%;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Bree Serif;
+  color: white;
+  background-color: #0f172a;
+}
+.img-details {
+  border-bottom: 2px solid #475569;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details-2 {
+  text-align: left;
+  width: 100%;
+}
+.details-1 {
+  text-align: left;
+}
+.detail-heading {
+  margin-bottom: 6px;
+}
+.competing-name {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .img-details {
+    width: 60%;
+    border: none;
+    justify-content: space-between;
+  }
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .details-2 {
+    text-align: right;
+    width: 40%;
+  }
+  .lm-team-logo {
+    width: 200px;
+  }
+}

@@ -1,0 +1,17 @@
+.pnf-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pnf-heading {
+  color: white;
+  font-family: Bree Serif;
+}
+
+@media (min-width: 768px) {
+  .pnf-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
